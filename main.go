@@ -24,6 +24,7 @@ func p1(x int) {
 	fmt.Println(s)
 	after1 := now
 	time1 := after1.Sub(before1)
+	fmt.Println(before1, after1)
 	fmt.Println(time1)
 
 	// Initializing map and returning t
@@ -76,7 +77,7 @@ func p2(x int) {
 }
 
 func main() {
-	// Get x from command line and handle nil inputs
+	// Get x from command line and handle nil inputs -- taken from stackoverflow
 	var x int
 	fmt.Println("Enter an integer value : ")
 	_, err := fmt.Scanf("%d", &x)
