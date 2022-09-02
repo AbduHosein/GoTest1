@@ -1,2 +1,5 @@
 # GoTest1
-CSCI:3359
+
+p1 function takes x int from command line
+
+
